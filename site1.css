@@ -1,0 +1,34 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 100px;
+    position: relative;
+}
+/*comentario sobre o comando*/
+.header {
+    background-color: darkgray;
+    position: relative;
+
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu li{
+    display: inline;
+    cursor: pointer;
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+
+.menu {
+    position: absolute;
+    right: 50px;
+    bottom: 25px;
+}
